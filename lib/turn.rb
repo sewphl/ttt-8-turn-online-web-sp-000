@@ -15,8 +15,8 @@ def valid_move?(board,index)
 end
 
 def move(array, index, value="X")
-  array[index] = value	  
-end	end
+  array[index] = value
+end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board,index)
