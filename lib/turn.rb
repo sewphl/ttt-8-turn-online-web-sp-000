@@ -34,12 +34,10 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets
   input_to_index(input)
-=begin
-
   if valid_move?(board,index)
     move(array, index, value="X")
     display_board(board)
 #  else turn(board)
   end
-=end
+
 end
